@@ -92,7 +92,7 @@ class TelegramService:
             err_body = he.read().decode("utf-8", errors="ignore")
             if "chat not found" in err_body.lower():
                 self.last_error = (
-                    f"HTTP {he.code}: Chat bulunamadı! Lütfen Telegram uygulamasından botunuza (@iboobsbot) "
+                    f"HTTP {he.code}: Chat bulunamadı! Lütfen Telegram uygulamasından botunuza "
                     "giderek bir kez /start (Başlat) butonuna basın."
                 )
             else:
