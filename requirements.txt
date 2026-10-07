@@ -1,0 +1,2 @@
+# Proliz OBS Bot - Bağımlılıklar
+selenium>=4.20.0

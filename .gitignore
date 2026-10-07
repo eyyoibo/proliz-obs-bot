@@ -1,0 +1,19 @@
+# Credentials & Personal Data
+config.json
+*.txt
+!requirements.txt
+telegram*.txt
+
+# Logs & Media
+logs/
+*.log
+*.mp4
+*.har
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/

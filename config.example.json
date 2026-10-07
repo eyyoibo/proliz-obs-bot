@@ -1,0 +1,20 @@
+{
+    "tc": "YOUR_TC_NUMBER_HERE",
+    "sifre": "YOUR_OBS_PASSWORD_HERE",
+    "target_time": "2026-09-16 09:00:00",
+    "wait_target_time": true,
+    "headless": false,
+    "telegram_token": "YOUR_TELEGRAM_BOT_TOKEN_HERE",
+    "telegram_chat_id": "YOUR_TELEGRAM_CHAT_ID_HERE",
+    "telegram_enabled": false,
+    "telegram_listener_enabled": false,
+    "auto_finalize": true,
+    "quota_watch_enabled": false,
+    "quota_watch_interval_minutes": 1,
+    "timeout_short": 5,
+    "timeout_medium": 15,
+    "timeout_long": 30,
+    "custom_courses": [],
+    "sniper_courses": [],
+    "selected_courses": []
+}
